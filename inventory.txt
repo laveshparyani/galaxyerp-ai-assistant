@@ -1,0 +1,15 @@
+Sample Inventory Items from GalaxyERP
+
+- Stainless Steel Sheet 304 (RAW001): High-quality 304 grade stainless steel sheet, 2mm thickness. Stock: 5000 SQFT in Main Warehouse. Supplier: SteelCo India. GST: 18%. Lead time: 7 days.
+
+- Aluminum Extrusion (RAW002): 6063-T5 aluminum extrusion profile, 2m length. Stock: 3000 MTR in Main Warehouse. Supplier: AlumTech Ltd. GST: 18%. Lead time: 5 days.
+
+- ABS Plastic Granules (RAW003): High-impact ABS plastic granules for injection molding. Stock: 2000 KG in Main Warehouse. Supplier: Plastico Inc. GST: 18%. Lead time: 3 days.
+
+- Industrial Control Panel (FIN001): 24" x 36" control panel with PLC integration. Stock: 50 PCS in Finished Goods WH. GST: 18%.
+
+- Corrugated Box L (PACK001): Heavy-duty corrugated box 24"x18"x12". Stock: 1000 PCS in Packing WH. Supplier: PackPro Ltd. GST: 18%. Lead time: 2 days.
+
+- PLC Programming Kit (TOOL001): Complete PLC programming and testing kit. Stock: 20 PCS in Tools WH. GST: 18%.
+
+- PLC Spare Parts (SP001): Common spare parts for industrial PLCs. Stock: 200 PCS in Spares WH. GST: 18%. 

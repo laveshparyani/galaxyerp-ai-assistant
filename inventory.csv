@@ -1,0 +1,16 @@
+item_code,item_name,item_group,description,stock_uom,valuation_rate,opening_stock,actual_qty,ordered_qty,reserved_qty,projected_qty,warehouse,last_purchase_rate,last_sales_rate,standard_selling_rate,standard_buying_rate,gst_hsn_code,gst_tax_rate,min_order_qty,reorder_level,max_order_qty,supplier,lead_time_days,is_active,last_updated
+RAW001,Stainless Steel Sheet 304,Manufacturing,High-quality 304 grade stainless steel sheet, 2mm thickness,SQFT,450.00,5000,5000,2000,1000,6000,Main Warehouse,440.00,480.00,480.00,440.00,7219,18,100,1000,5000,SteelCo India,7,TRUE,2024-03-15
+RAW002,Aluminum Extrusion,Manufacturing,6063-T5 aluminum extrusion profile, 2m length,MTR,280.00,3000,3000,1500,800,3700,Main Warehouse,275.00,300.00,300.00,275.00,7604,18,50,500,2000,AlumTech Ltd,5,TRUE,2024-03-15
+RAW003,ABS Plastic Granules,Manufacturing,High-impact ABS plastic granules for injection molding,KG,120.00,2000,2000,1000,400,2600,Main Warehouse,115.00,130.00,130.00,115.00,3903,18,25,200,1000,Plastico Inc,3,TRUE,2024-03-15
+FIN001,Industrial Control Panel,Finished Goods,24" x 36" control panel with PLC integration,PCS,8500.00,50,50,25,10,65,Finished Goods WH,8200.00,9500.00,9500.00,8200.00,8537,18,1,5,20,NA,NA,TRUE,2024-03-15
+FIN002,Automation Sensor Kit,Finished Goods,Complete sensor kit for industrial automation,PCS,2500.00,100,100,50,20,130,Finished Goods WH,2400.00,2800.00,2800.00,2400.00,9031,18,1,10,50,NA,NA,TRUE,2024-03-15
+FIN003,Power Distribution Unit,Finished Goods,3-phase power distribution unit with surge protection,PCS,12000.00,30,30,15,5,40,Finished Goods WH,11500.00,13500.00,13500.00,11500.00,8536,18,1,3,10,NA,NA,TRUE,2024-03-15
+PACK001,Corrugated Box L,Packing Material,Heavy-duty corrugated box 24"x18"x12",PCS,45.00,1000,1000,500,200,1300,Packing WH,42.00,50.00,50.00,42.00,4819,18,10,100,500,PackPro Ltd,2,TRUE,2024-03-15
+PACK002,PE Foam Sheets,Packing Material,1" thick PE foam sheets for cushioning,SQFT,15.00,2000,2000,1000,400,2600,Packing WH,14.00,18.00,18.00,14.00,3921,18,50,200,1000,FoamTech Inc,3,TRUE,2024-03-15
+PACK003,Stretch Wrap,Packing Material,Industrial-grade stretch wrap 18"x1000',ROLL,120.00,500,500,250,100,650,Packing WH,115.00,140.00,140.00,115.00,3923,18,5,50,200,PackPro Ltd,2,TRUE,2024-03-15
+TOOL001,PLC Programming Kit,Tools,Complete PLC programming and testing kit,PCS,3500.00,20,20,10,5,25,Tools WH,3400.00,3800.00,3800.00,3400.00,9032,18,1,2,5,NA,NA,TRUE,2024-03-15
+TOOL002,Multimeter,Tools,Digital multimeter with temperature measurement,PCS,1200.00,50,50,25,10,65,Tools WH,1150.00,1300.00,1300.00,1150.00,9030,18,1,5,20,NA,NA,TRUE,2024-03-15
+TOOL003,Wire Crimping Tool,Tools,Professional wire crimping tool set,PCS,800.00,30,30,15,5,40,Tools WH,780.00,900.00,900.00,780.00,8205,18,1,3,10,NA,NA,TRUE,2024-03-15
+SP001,PLC Spare Parts,Spares,Common spare parts for industrial PLCs,PCS,150.00,200,200,100,40,260,Spares WH,145.00,170.00,170.00,145.00,8537,18,5,20,100,NA,NA,TRUE,2024-03-15
+SP002,Sensor Spare Kit,Spares,Replacement parts for industrial sensors,PCS,250.00,150,150,75,30,195,Spares WH,240.00,280.00,280.00,240.00,9031,18,5,15,50,NA,NA,TRUE,2024-03-15
+SP003,Control Panel Components,Spares,Common components for control panel maintenance,PCS,180.00,300,300,150,60,390,Spares WH,175.00,200.00,200.00,175.00,8536,18,5,30,150,NA,NA,TRUE,2024-03-15 
