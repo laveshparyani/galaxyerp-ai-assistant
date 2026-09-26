@@ -13,15 +13,20 @@ GalaxyERP is an intelligent Enterprise Resource Planning (ERP) system powered by
 
 ## 🚀 Live Demo
 
-The application is currently deployed at: https://erp-buddy-service-806556013178.us-central1.run.app/
+Hosted on GitHub Pages: https://laveshparyani.github.io/galaxyerp-ai-assistant/
+
+The page is a static landing site with an embedded **ERP Buddy** chat widget (Dialogflow Messenger /
+Vertex AI Agent Builder). The chat responds only while its Google Cloud agent is active. The project
+was originally deployed on Google Cloud Run; that URL has been retired in favor of the free, always-on
+GitHub Pages deployment.
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: Python Flask
-- **AI Integration**: Google Dialogflow
-- **Deployment**: Google Cloud Run
-- **Containerization**: Docker
+- **AI Integration**: Google Dialogflow Messenger / Vertex AI Agent Builder (embedded widget)
+- **Hosting**: GitHub Pages (static, free, always on)
+- **Containerization**: Docker (for the optional Cloud Run / Flask deployment)
 
 ## 📁 Project Structure
 
@@ -47,7 +52,7 @@ galaxyerp-ai-assistant/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/galaxyerp-ai-assistant.git
+git clone https://github.com/laveshparyani/galaxyerp-ai-assistant.git
 cd galaxyerp-ai-assistant
 ```
 
