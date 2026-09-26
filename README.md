@@ -16,9 +16,16 @@ GalaxyERP is an intelligent Enterprise Resource Planning (ERP) system powered by
 Hosted on GitHub Pages: https://laveshparyani.github.io/galaxyerp-ai-assistant/
 
 The page is a static landing site with an embedded **ERP Buddy** chat widget (Dialogflow Messenger /
-Vertex AI Agent Builder). The chat responds only while its Google Cloud agent is active. The project
-was originally deployed on Google Cloud Run; that URL has been retired in favor of the free, always-on
-GitHub Pages deployment.
+Vertex AI Agent Builder). The project was originally deployed on Google Cloud Run; that URL has been
+retired in favor of the free, always-on GitHub Pages deployment.
+
+> **ERP Buddy is temporarily unavailable.** After Google's forced "Dialogflow CX -> Conversational
+> Agents" migration, the agent's public (anonymous) access returns `PERMISSION_DENIED` - it fails even
+> in Google's own "Try it now" preview, so it is a Google-side issue, not a problem with this site. The
+> agent itself is healthy (it replies in the console simulator) and billing is active. The live chat
+> widget is therefore commented out in `templates/index.html` and replaced with a small maintenance
+> notice, so visitors do not see an error. Re-enable it (uncomment the `df-messenger` block) once Google
+> restores anonymous access to the agent.
 
 ## 🛠️ Tech Stack
 

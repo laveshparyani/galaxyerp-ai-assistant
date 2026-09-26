@@ -674,6 +674,33 @@
       bottom: 16px;
       right: 16px;
     }
+
+    /* Temporary maintenance notice shown in place of ERP Buddy */
+    .erp-buddy-maintenance {
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+      max-width: 260px;
+      background: #fff;
+      color: var(--text-color);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      padding: 12px 16px;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .erp-buddy-maintenance .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--warning-color);
+      flex-shrink: 0;
+    }
   </style>
 </head>
 <body>
@@ -847,6 +874,14 @@
     </div>
   </footer>
 
+  <!--
+    ERP Buddy (Dialogflow Messenger) is temporarily disabled: its Google Cloud
+    (Vertex AI) agent returns "Permission denied" for anonymous/public access after
+    Google's "Dialogflow CX -> Conversational Agents" migration. The agent itself is
+    healthy (it replies in the console simulator) and billing is active; the block is
+    on Google's backend. To restore the live chat, uncomment the block below once
+    Google has re-enabled public access to the agent.
+
   <df-messenger
     project-id="neural-engine-458706-h9"
     agent-id="e72466b1-b238-40f4-82de-72eee3b9486c"
@@ -856,6 +891,13 @@
       chat-title="ERP Buddy">
     </df-messenger-chat-bubble>
   </df-messenger>
+  -->
+
+  <!-- Temporary maintenance notice shown while ERP Buddy is unavailable -->
+  <div class="erp-buddy-maintenance" role="status">
+    <span class="dot"></span>
+    ERP Buddy is undergoing maintenance and will be back soon.
+  </div>
 
   <script>
     // Mobile Menu Toggle
